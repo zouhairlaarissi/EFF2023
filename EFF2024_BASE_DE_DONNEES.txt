@@ -1,0 +1,19 @@
+CREATE DATABASE EFF2024
+GO
+
+USE EFF2024
+GO
+
+CREATE TABLE Etablissements(
+    Code int primary key,
+    Nom varchar(20),
+    Ville varchar(20)
+)
+GO
+
+INSERT INTO Etablissements VALUES(001,'A','casablanca')
+INSERT INTO Etablissements VALUES(002,'B','rabat')
+INSERT INTO Etablissements VALUES(003,'C','marrakech')
+GO
+
+SELECT * FROM Etablissements
