@@ -47,6 +47,7 @@ namespace EFF2023
             txtNom.Text = "";
             txtVille.Text = "";
             lblMessage.Text = "";
+            Afficher()
         }
 
         private void AfficherMessage(string message, string type)
